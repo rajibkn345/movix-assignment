@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <script type="module" crossorigin src="/assets/index-f40de0fd.js"></script>
+    <link rel="stylesheet" href="/assets/index-07413f14.css">
+  </head>
+  <body>
+    <!-- header starts here  -->
+    <header class="header">
+      <div class="header__items">
+        <div class="header__logo">
+          <h2 class="heading-2">MOVIX</h2>
+        </div>
+        <div class="header__right">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <i class="fa-solid fa-user"></i>
+        </div>
+      </div>
+      <nav class="nav">
+        <div class="header__middle">
+          <div class="header__middle__top">
+            <ul>
+              <li><a href="#">Trending</a></li>
+              <li><a href="#">Pre-orders</a></li>
+              <li><a href="#">Upcoming</a></li>
+              <li><a href="#">Support 24/7</a></li>
+            </ul>
+          </div>
+          <div id="main-menu" class="header__middle__bottom">
+            <ul>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid menu-icon fa-laptop"></i><span>PC</span
+                  ><i class="fa-solid fa-chevron-down"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-brands menu-icon fa-playstation"></i
+                  ><span>Playstation</span
+                  ><i class="fa-solid fa-chevron-down"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-brands fa-xbox menu-icon"></i><span>Xbox</span
+                  ><i class="fa-solid fa-chevron-down"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-clapperboard menu-icon"></i
+                  ><span>Nintendo</span><i class="fa-solid fa-chevron-down"></i
+                ></a>
+              </li>
+              <button id="searchBtn" class="search-btn">
+                <i class="fa-solid fa-search"></i>
+              </button>
+            </ul>
+          </div>
+          <div id="search-item">
+            <div class="search-section">
+              <div class="search-area bg-orangered">
+                <span
+                  ><input
+                    type="text"
+                    name="search"
+                    placeholder="Minecraft, RPG, multiplayer" /></span
+                ><button class="btn-2">Advanced search</button>
+              </div>
+              <button id="btn-close" class="btn-2">&times;</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="sub-menu" class="sub-menu" style="display: none"></div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="flex-between">
+          <h4 class="heading-4">Trending</h4>
+          <button class="btn-1">view all</button>
+        </div>
+        <div class="movie__items">
+          <div class="movie">
+            <div class="movie__poster">
+              <img src="img/m1.jpg" alt="movie-1" />
+              <span class="discount">23%</span>
+            </div>
+            <div class="movie__info">
+              <h5>Sengoku Dynast</h5>
+              <span>19.99&euro;</span>
+            </div>
+          </div>
+          <div class="movie">
+            <div class="movie__poster">
+              <img src="img/m2.jpg" alt="movie-2" />
+              <span class="discount">29%</span>
+            </div>
+            <div class="movie__info">
+              <h5>The Sims 4 Horse Ranch</h5>
+              <span>30.99&euro;</span>
+            </div>
+          </div>
+          <div class="movie">
+            <div class="movie__poster">
+              <img src="img/m3.jpg" alt="movie-3" />
+              <span class="discount">33%</span>
+            </div>
+            <div class="movie__info">
+              <h5>Remnant</h5>
+              <span>34.89&euro;</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    
+  </body>
+</html>
