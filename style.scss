@@ -42,7 +42,7 @@ $primary-color: #312a2a;
 }
 .header {
   position: relative;
-  background: url('img/m1.jpg');
+  background: url('./public/img/m1.jpg');
   height: 85vh;
   width: 100%;
   background-position: center;
@@ -60,7 +60,7 @@ $primary-color: #312a2a;
     display: flex;
     justify-content: space-between;
     .header__logo {
-      padding:0 2px;
+      padding: 0 2px;
     }
     .header__right {
       color: #ccc;
