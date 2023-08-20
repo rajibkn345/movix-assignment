@@ -1,3 +1,4 @@
+import './style.scss';
 const mainMenu = document.querySelector('#main-menu');
 const subMenu = document.querySelector('#sub-menu');
 const liItems = mainMenu.querySelectorAll('li');
